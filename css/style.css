@@ -5,6 +5,38 @@ body {
   background-color: #ffffff;
 }
 
+#ch {
+  display: none;
+}
+
+#ch:checked ~ .content {
+  display: block;
+}
+
+#ch:checked ~ label {
+  display: none;
+}
+
+.ch1 {
+  display: none;
+}
+
+.ch1:checked ~ .contentwho {
+  display: block;
+}
+
+.ch1:checked ~ label {
+  display: none;
+}
+
+.contentwho {
+  display: none;
+}
+
+.content {
+  display: none;
+}
+
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
